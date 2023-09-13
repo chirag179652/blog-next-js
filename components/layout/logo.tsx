@@ -1,5 +1,7 @@
+import classes from '../../styles/logo.module.css';
+
 const Logo = () => {
-  return <></>;
+  return <span className={classes.logo}>CS BLOGS</span>;
 };
 
 export default Logo;
